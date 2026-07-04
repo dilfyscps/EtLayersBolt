@@ -3,8 +3,8 @@ import { version } from "./package.json";
 
 const config: CEP_Config = {
   version,
-  id: "com.etvrnity.etlayers.bolt", 
-  displayName: "EtLayers Bolt", 
+  id: "com.etvrnity.etlayers", 
+  displayName: "EtLayers", 
   symlink: "local",
   port: 3000,
   servePort: 5000,
@@ -41,8 +41,8 @@ const config: CEP_Config = {
   zxp: {
     country: "US",
     province: "CA",
-    org: "Company",
-    password: "password",
+    org: "Etvrnity",
+    password: "orbit",
     tsa: [
       "http://timestamp.digicert.com/", // Windows Only
       "http://timestamp.apple.com/ts01", // MacOS Only
